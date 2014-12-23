@@ -46,7 +46,6 @@ Run the following command in the terminal:
 
 ```
 $ npm install
-$ grunt
 ```
 
 ## Tests
