@@ -32,6 +32,6 @@ define(function(require, exports, module) {
     nextTick = setTimeout;
   }
 
-  Async.nextTick = nextTick;
+  Async.nextTick = Async;
   module.exports = Async;
 });
