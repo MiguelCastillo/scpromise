@@ -29,11 +29,9 @@
     nextTick = setImmediate;
   }
   else {
-    nextTick = function(cb) {
-      setTimeout(cb, 0);
-    };
+    nextTick = setTimeout;
   }
 
-  Async.nextTick = nextTick;
+  Async.nextTick = Async;
   module.exports = Async;
 }());
